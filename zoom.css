@@ -1,66 +1,165 @@
-/*.ReactVirtualized__Grid__innerScrollContainer{*/
-/*overflow: auto !important;*/
-/* height: 100% !important;*/
-/* min-height: calc(100% - 68px) !important;*/
-/*}*/
+/*----------------------------------
+Zoom UI theme by biggerbluebutton.com
+https://github.com/biggerbluebutton/bigbluebutton_zoom_UI
+https://biggerbluebutton.com
+MIT license
+------------------------------------*/
+@import "https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap";
+/* Using a string */
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
 
-@media only screen and (min-width: 900px) {
-  .wrapper--Z20hQYP > :nth-child(1) {
-    order: 2;
-  }
+.icon-bbb-group_chat:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f4ad";
+}
+.icon-bbb-copy:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f249";
+}
+.icon-bbb-desktop, .icon-bbb-desktop_off:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f108";
+}
 
-  .wrapper--Z20hQYP .userlistPad--o5KDX {
-    order: 3;
-  }
+.icon-bbb-video, .icon-bbb-video_off:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f03d";
+}
 
-  .wrapper--Z20hQYP > :nth-child(3) {
-    order: 4;
-  }
+.icon-bbb-audio_on, .icon-bbb-audio_off:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f095";
+}
+.icon-bbb-plus:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f067";
+}
+.icon-bbb-send:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f1d8";
+}
+.icon-bbb-send:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f1d8";
+}
+.icon-bbb-unmute:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f3c9";
+}
+.icon-bbb-mute:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f539";
+}
+.actionsbar--Z1mcyA0 .icon-bbb-hand:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\e05d";
+}
 
-  .wrapper--Z20hQYP .content--2jo8b8 {
-    order: 1;
-  }
-
-  .top--Z25OvN9 .left--18SBXP {
-    order: 3;
-  }
-
-  .top--Z25OvN9 .left--18SBXP .arrowLeft--1CFBz1 {
-    left: initial;
-    right: 15px;
-    transform: rotate(180deg);
-  }
-
-  .top--Z25OvN9 .left--18SBXP .arrowRight--Zbqp1D {
-    left: initial;
-    right: 35px;
-    transform: rotate(180deg);
-  }
-
-  .tether-element .content--ZmitSl {
-    right: 370px;
-  }
-
-  .content--ZmitSl span, .content--ZmitSl i {
-    color: white;
-  }
-
-  .userListColumn--6vKQL .content--ZmitSl {
-    right: 330px;
-  }
-
-  .scrollableList--wfdO0 {
-    background: initial;
-  }
-
-  .left-top--1x0dTy:after, [dir="rtl"] .right-top--Z1QyptE:after, .right-top--Z1QyptE:after, [dir="rtl"] .left-top--1x0dTy:after, .left-top--1x0dTy:before, [dir="rtl"] .right-top--Z1QyptE:before, .right-top--Z1QyptE:before, [dir="rtl"] .left-top--1x0dTy:before {
-    right: -8px;
-    transform: rotate(180deg);
-    left: initial;
-  }
+#newLayout, .presentationContainer--1wqUYG {
+  background-color: #222222 !important;
 }
 body {
-  background-color: #2a2a2a !important;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: #444;
+}
+.smallTitle--2wz4kP {
+  color: var(--color-primary);
+  font-size: 1.2em;
+  text-transform: none;
+  font-weight: 700;
+}
+.actionsbar--Z1ant6U {
+  background-color: #1a1a1a;
+}
+.userNameMain--2fo2zM span {
+  font-weight: bold !important;
+}
+.userItemContents--C2UQJ {
+  border-bottom: 2px solid;
+  border-color: #ececec;
+}
+.avatar--Z2lyL8K {
+  opacity: 0.6;
+}
+.scrollStyle--Ckr4w {
+  background: initial;
+}
+.title--11IbvM span, .title--11IbvM i {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.hideBtn--ZOkOfz {
+  background-color: inherit;
+}
+.chat--111wNM {
+  background-color: #f5f6fa;
+}
+.chat--111wNM .input--2wilPX {
+  box-shadow: none;
+  border: none;
+}
+.systemMessage--ZEi8xl {
+  border: none;
+  border-bottom: 1px solid var(--systemMessage-border-color);
+  background-color: #f5f6fa;
+}
+.messageList--2kDQeQ {
+  background: initial;
+}
+.messageList--2kDQeQ .wrapper--1nuR8g {
+  background-color: #dff0ff !important;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.messageList--2kDQeQ .ReactVirtualized__Grid__innerScrollContainer {
+  max-height: 150px;
+}
+.emphasizedMessage--ZhjVgu {
+  font-weight: 500;
+  font-size: 0.95em;
+}
+.sendButton--Z93EzE {
+  margin-left: 0px;
+}
+.sendButton--Z93EzE .circle--Z2c8umk {
+  border-radius: 20%;
+}
+.userList--Z2q1D0p {
+  box-shadow: 1px 2px 5px #e1e1e1;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f5f6fa !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+:root {
+  --color-primary: #2749f1;
+  --loader-bg: black;
+  --user-list-bg: white;
+  --color-off-white: white;
 }
 
 .actionsbar--Z1mcyA0 .button--Z2dosza {
@@ -68,19 +167,19 @@ body {
   border: none;
 }
 .actionsbar--Z1mcyA0 {
-  --btn-default-bg: #1bce55;
-  --btn-primary-color: #1bce55;
+  --btn-default-bg: #a8a8a8;
+  --btn-primary-color: #1a1a1a;
 }
 .content--ZmitSl {
-  --dropdown-bg: black;
-  background-color: black;
+  /* --dropdown-bg: black; */
+  /* background-color: black; */
 }
 .overlay--Z1x46LG, .overlay--1aTlbi {
   background-color: rgba(58, 58, 58, 0.8);
 }
 :root {
   --loader-bg: #2a2a2a;
-  --btn-primary-bg: #007b28;
+  --btn-primary-bg: #23d959;
   --btn-primary-border: #014216
 }
 .
