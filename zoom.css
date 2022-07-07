@@ -4,6 +4,7 @@ https://github.com/biggerbluebutton/bigbluebutton_zoom_UI
 https://biggerbluebutton.com
 MIT license
 ------------------------------------*/
+
 @import "https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap";
 /* Using a string */
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
@@ -73,6 +74,9 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
   color: #444;
+}
+.krKMQc {
+  background: initial;
 }
 .smallTitle--2wz4kP {
   color: var(--color-primary);
