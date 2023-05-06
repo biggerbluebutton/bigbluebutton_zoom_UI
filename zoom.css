@@ -1,196 +1,204 @@
 /*----------------------------------
 Zoom UI theme by biggerbluebutton.com
-https://github.com/biggerbluebutton/bigbluebutton_zoom_UI
+https://github.com/biggerbluebutton/bigbluebutton_modern_UI
 https://biggerbluebutton.com
 MIT license
 ------------------------------------*/
-
 @import "https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap";
 /* Using a string */
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
-
 .icon-bbb-group_chat:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f4ad";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f4ad";
 }
 .icon-bbb-copy:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f249";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f249";
 }
 .icon-bbb-desktop, .icon-bbb-desktop_off:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f108";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f108";
 }
 
 .icon-bbb-video, .icon-bbb-video_off:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f03d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f03d";
 }
 
 .icon-bbb-audio_on, .icon-bbb-audio_off:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f095";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f095";
 }
 .icon-bbb-plus:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f067";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f067";
 }
 .icon-bbb-send:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f1d8";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f1d8";
 }
 .icon-bbb-send:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f1d8";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f1d8";
 }
 .icon-bbb-unmute:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f3c9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f3c9";
 }
 .icon-bbb-mute:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f539";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f539";
+}
+.icon-bbb-listen:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f025";
+}
+.icon-bbb-settings:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f013";
+}
+.icon-bbb-group_chat:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f4ad";
+}
+.icon-bbb-copy:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f249";
 }
 .actionsbar--Z1mcyA0 .icon-bbb-hand:before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\e05d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f256";
 }
 
-#newLayout, .presentationContainer--1wqUYG {
-  background-color: #222222 !important;
+/* presentation area background*/
+#layout{
+    background-color: #222222 !important;
 }
+/*change font into quicksand */
 body {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
-  color: #444;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: #444;
 }
-.krKMQc {
-  background: initial;
+::placeholder{
+    color: #B8BDC2;
 }
-.smallTitle--2wz4kP {
-  color: var(--color-primary);
-  font-size: 1.2em;
-  text-transform: none;
-  font-weight: 700;
+/*  users list */
+.ReactVirtualized__Grid {
+    background: initial;
 }
-.actionsbar--Z1ant6U {
-  background-color: #1a1a1a;
+/* sections headers (message, users, notes)  */
+.sc-kITQLZ{
+    color: var(--color-primary);
+    font-size: 1.2em;
+    text-transform: none;
+    font-weight: 700;
 }
-.userNameMain--2fo2zM span {
-  font-weight: bold !important;
+.sc-bgMUWu span {
+    font-weight: bold !important;
 }
-.userItemContents--C2UQJ {
-  border-bottom: 2px solid;
-  border-color: #ececec;
+.sc-ezHVNJ {
+    border-bottom: 2px solid;
+    border-color: #ececec;
 }
-.avatar--Z2lyL8K {
-  opacity: 0.6;
+
+/* user avatar */
+.sc-crHmcD {
+    opacity: 0.6;
 }
 .scrollStyle--Ckr4w {
-  background: initial;
+    background: initial;
 }
 .title--11IbvM span, .title--11IbvM i {
-  font-weight: 700;
-  font-size: 1.2em;
+    font-weight: 700;
+    font-size: 1.2em;
 }
 .hideBtn--ZOkOfz {
-  background-color: inherit;
+    background-color: inherit;
 }
-.chat--111wNM {
-  background-color: #f5f6fa;
+/* public chat button toggle button .kNRpHf*/
+/* chat area .sc-fwqEVi */
+.sc-fwqEVi,.kNRpHf {
+    background-color: #f5f6fa;
 }
-.chat--111wNM .input--2wilPX {
-  box-shadow: none;
-  border: none;
+/* send message chat box */
+.sc-gouySG {
+    box-shadow: none;
+    border: none;
 }
-.systemMessage--ZEi8xl {
-  border: none;
-  border-bottom: 1px solid var(--systemMessage-border-color);
-  background-color: #f5f6fa;
+.kmITIk{
+    background: initial;
+}
+/*  system welcome message */
+.sc-bEvXvO {
+    border: none;
+    border-bottom: 1px solid #AAA;
+    background-color: #f5f6fa;
 }
 .messageList--2kDQeQ {
-  background: initial;
+    background: initial;
 }
-.messageList--2kDQeQ .wrapper--1nuR8g {
-  background-color: #dff0ff !important;
-  padding: 10px;
-  margin-right: 20px;
-  border-radius: 10px;
+
+/* message item */
+.sc-kcTyAv {
+    background-color: white !important;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
 }
+
 .messageList--2kDQeQ .ReactVirtualized__Grid__innerScrollContainer {
-  max-height: 150px;
+    max-height: 150px;
 }
-.emphasizedMessage--ZhjVgu {
-  font-weight: 500;
-  font-size: 0.95em;
+/* send message button circle*/
+#tippy-31 span{
+    margin-left: 0px;
+    border-radius: 20%;
 }
-.sendButton--Z93EzE {
-  margin-left: 0px;
+/* send message button*/
+#tippy-31{
+    margin-left: 0px;
 }
-.sendButton--Z93EzE .circle--Z2c8umk {
-  border-radius: 20%;
-}
-.userList--Z2q1D0p {
-  box-shadow: 1px 2px 5px #e1e1e1;
+/* users list box */
+.sc-fBgqEL {
+    box-shadow: 1px 2px 5px #e1e1e1;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f5f6fa !important;
+    background: #f5f6fa !important;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+    background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+    background: #555;
 }
 :root {
-  --color-primary: #2749f1;
-  --loader-bg: black;
-  --user-list-bg: white;
-  --color-off-white: white;
+    --color-primary: #2749f1;
+    --loader-bg: #2a2a2a;
+    --user-list-bg: white;
+    --color-off-white: white;
+    --color-background: #222222;
+    --btn-primary-bg: #23d959;
+    --btn-primary-border: #014216
 }
-
-.actionsbar--Z1mcyA0 .button--Z2dosza {
-  /*   background-color: transparent; */
-  border: none;
-}
-.actionsbar--Z1mcyA0 {
-  --btn-default-bg: #a8a8a8;
-  --btn-primary-color: #1a1a1a;
-}
-.content--ZmitSl {
-  /* --dropdown-bg: black; */
-  /* background-color: black; */
-}
-.overlay--Z1x46LG, .overlay--1aTlbi {
-  background-color: rgba(58, 58, 58, 0.8);
-}
-:root {
-  --loader-bg: #2a2a2a;
-  --btn-primary-bg: #23d959;
-  --btn-primary-border: #014216
-}
-.
-/*
-color: var(--btn-default-bg);
-    background-image: none;
-    background-color: transparent;
-    border: var(--border-size-large) solid transparent;
-*/
-
